@@ -11,7 +11,7 @@ st.set_page_config(page_title='Sentiment Prediction Model', layout='wide')
 def load_components():
     model = joblib.load('logistic_regression_model.pkl')
     label_encoder = joblib.load('label_encoder.pkl')
-    embedder = SentenceTransformer('embedding_model')
+    embedder = SentenceTransformer('all-mpnet-base-v2')
     raw_df = pd.read_csv('clean_nus_sms.csv')
     english_df = pd.read_csv('english_messages.csv')
     initial_labeled_df = pd.read_csv('labeled.csv')
