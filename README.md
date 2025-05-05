@@ -2,6 +2,8 @@
 
 This project builds a sentiment prediction system for text messages using machine learning and SentenceTransformer embeddings. It allows users to explore the full model development process and test the final model in an interactive Streamlit app.
 
+**Dataset Used:** *The National University of Singapore SMS Corpus*
+
 ---
 
 ## Project Overview
