@@ -23,7 +23,7 @@ The workflow includes:
 
 - Python
 - Streamlit
-- scikit-learn
+- Scikit-learn
 - SentenceTransformers
 - Pandas
 - Joblib
